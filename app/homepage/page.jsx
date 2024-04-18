@@ -1,5 +1,5 @@
 import React from "react";
-import { GET } from "./route";
+import { GET } from "../api/route";
 
 const Homepage = async () => {
   const data = await GET();
